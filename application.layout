@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Update each web pages SEO to set values for {{meta_title}}, {{meta_description}}, {{meta_keywords}} -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{meta_description}}">
+    <meta name="keywords" content="{{meta_keywords}}">
+    <meta name="author" content="">
+    <title>{{meta_title}}</title>
+
+   
+    <!--CSS-->
+    <link href="/application.css" rel="stylesheet">
+    <!--Javascript-->
+    <script src="/application.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <!--Header Content-->
+    </header>
+    <section id="content">
+        <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
+        {{yield}}
+    </section>
+    <footer>
+        <!--Footer Content-->
+        <section class="footer">
+            <div class="section_content">
+              <div class="footer_background">
+                <div class="footer_wrap">
+                  <div class="footer_content">
+                    <h1 class="white">You can reach Guest Services at:<br><span class="chronicle-display-italic white">(403) 271-7670</span></h1>
+                    <ul class="social_icons_list">
+                      <li>
+                    <a class="facebook" href="https://www.facebook.com/southcentremall" target="_blank">Facebook</a>
+                  </li>
+                  <li>
+                    <a class="twitter" href="https://twitter.com/southcentremall" target="_blank">Twitter</a>
+                  </li>
+                  <li>
+                    <a class="instagram" href="http://instagram.com/southcentremall/" target="_blank">Instagram</a>
+                  </li>
+                  <li>
+                    <a class="pinterest" href="https://www.pinterest.com/southcentremall/" target="_blank">pinterest</a>
+                  </li>
+                  <li>
+                    <a class="youtube" href="https://www.youtube.com/user/SouthcentreMall" target="_blank">youtube</a>
+                  </li>
+                    </ul>
+                    <h2 class="white chronicle">CORNER<em>&nbsp;&nbsp;of&nbsp;&nbsp;</em>ANDERSON<em>&nbsp;&nbsp;&amp;&nbsp;&nbsp;</em>MACLEOD</h2>
+                    <hr>
+                    <ul class="footer_links">
+                      <li><a href="/pages/southcentre-about-us">About Us</a></li>
+                      <li><a href="/pages/southcentre-contact">Contact</a></li>
+                      <li><a href="/jobs">Careers</a></li>
+                      <li><a href="/pages/southcentre-leasing">Leasing</a></li>
+                      <li><a href="/pages/southcentre-media">Media</a></li>
+                      <li><a href="/retail_users/sign_in">Retailer Login</a></li>
+                      <li><a href="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/013/701/original/Oxford_Privacy_Statement_(2014_11_06).pdf?1445627232" target="_blank">Privacy</a></li>
+                      <li><a href="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/013/702/original/Accessibility_Policy.pdf?1445627265" target="_blank">Accessibility Policy</a></li>
+                    </ul>
+                    <img alt="logo oxford" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/003/863/original/logo_oxford.png?1410204148">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </footer>
+</body>
+
+</html>
